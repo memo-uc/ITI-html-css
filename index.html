@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Portfolio</h1>
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#birthday">Birthday</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <li><a href="#countries">Slider</a></li>
+            <li><a href="#skills">CV</a></li>
+        </ul>
+    </header>
+    <div class="home" id="home">
+        <div class="image-container">
+            <img src="images/portfolio.jpg" alt="Image">
+        </div>
+        <div class="text-container">
+            <h1>Mohamed hussein</h1>
+            <p>I am passionate about leveraging technology to solve real-world<br>
+                problems and aim to work in [your desired field, e.g., software development,<br>
+                cybersecurity, or cloud engineering]. I am constantly expanding my knowledge<br>
+                through hands-on projects, certifications, and collaborative learning.</p>
+        </div>
+    </div>
+    <div class="hobbies-continer" id="hobbies">
+        <h1>Hobbies</h1>
+        <div class="hobbies-box">
+            <div class="hobby">
+                <img src="images/Programming.jpg" alt="Hobby Image">
+                <h2>Programming</h2>
+                <p>Passionate about programming—love building projects, solving problems, and exploring new technologies in my free time.</p>
+            </div>
+            <div class="hobby">
+                <img src="images/Sports.avif" alt="Hobby Image">
+                <h2>Sports</h2>
+                <p>Passionate about football —team play keeps me disciplined and energized.</p>
+            </div>
+            <div class="hobby">
+                <img src="images/Language learning.webp" alt="Hobby Image">
+                <h2>Language learning</h2>
+                <p>Breaking down walls, one word at a time.</p>
+            </div>
+            <div class="hobby">
+                <img src="images/Gaming.jpg" alt="Hobby Image">
+                <h2>Gaming</h2>
+                <p>Love exploring immersive worlds and competitive strategy games.</p>
+            </div>
+        </div>
+    </div>
+    <section id="birthday" class="page">
+        <div class="container">
+            <h2 class="section-title">My Birthday</h2>
+            <div class="birthday-container">
+                <div class="birthday-initial" >
+                    <img src="images/birthday.webp" alt="Birthday Image" class="birthday-img">
+                    <h2>My Birthday Celebration</h2>
+                    <p>Celebrating my birthday with friends and family is always a special occasion. It's a time for joy, laughter, and creating wonderful memories together.</p>
+                </div>
+                <div class="birthday-form" >
+                    <h3>Write me a nice word!</h3>
+                    <form action="#thank-you" method="get">
+                        <textarea name="message" placeholder="Write Here.." rows="6" required></textarea>
+                        <input type="submit" value="Send" class="submit-button">
+                    </form>
+                </div>
+            </div>    
+        </div>
+    </section>
+    <section id="thank-you" class="page thank-you-page">
+        <div class="container">
+            <div class="thank-you-content">
+                <h2>Thank You</h2>
+                <p>Your beautiful message has been received successfully</p>      
+                <p>I appreciate your kind words and wish you a happy day</p>
+                <a href="#home" class="back-button">Go Back</a>
+            </div>
+        </div>
+    </section>
+    <div class="contact-me" id="contact">
+        <h2>Contact Me</h2>
+        <p>If you have any questions or just want to say hello, feel free to reach out!</p>
+        <form action="contact.html" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+    <div class="social-links">
+        <a href="https://www.facebook.com/mido.hussein.7712"><img src="images/facebook.svg" alt="facebook" width="32" height="32"></a>
+        <a href="https://github.com/memo-uc"><img src="images/github.png" alt="x" width="32" height="32"></a>
+        <a href="www.linkedin.com/in/mohamed-hussein-7260a6233"><img src="images/linked in.png" alt="linkedin" width="32" height="32"></a>
+        <a href="https://x.com/Mo7ammaah?t=kQOuwFYxp9jiTRe4s4UKVg&s=09"><img src="images/x.png" alt="github" width="32" height="32"></a>
+    </div>
+    <section id="countries" class="slider_container">
+        <div class="container">
+            <h2 class="section-title">Countries I wish to visit</h2>
+            <div class="slider">
+                <div class="slide one">
+                    <img src="images/japan.webp" alt="Japan" class="country-img">
+                    <h3 class="caption">Japan</h3>
+                </div>
+                <div class="slide two">
+                    <img src="images/italy.avif" alt="Italy" class="country-img">
+                    <h3 class="caption">Italy</h3>
+                </div>
+                <div class="slide three">
+                    <img src="images/france.webp" alt="France" class="country-img">
+                    <h3 class="caption">France</h3>
+                </div>
+                <div class="slide four">
+                    <img src="images/switzerland.webp" alt="Switzerland" class="country-img">
+                    <h3 class="caption">Switzerland</h3>
+                </div>
+                <div class="slide four">
+                    <img src="images/norway.jpg" alt="Norway" class="country-img">
+                    <h3 class="caption">Norway</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+=
+    <section id="cv" class="page">
+        <div class="container">
+            <h2 class="section-title">CV</h2>
+            <div class="cv-content">
+                <div class="cv-section">
+                    <h3>Personal Information</h3>
+                    <div class="cv-item"><strong>Name:</strong>Mohamed hussein</div>
+                    <div class="cv-item"><strong>Age:</strong> 23 years old</div>
+                    <div class="cv-item"><strong>Occupation:</strong> Web Developer</div>
+                    <div class="cv-item"><strong>Location:</strong> Bani Suef, Egypt</div>
+                </div>
+
+                <div class="cv-section" id="skills">
+                    <h3>Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span>HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cv-section">
+                    <h3>Education</h3>
+                    <div class="education-item">
+                        <h4>Bachelor of Computer Science</h4>
+                        <span class="date">2023 - 2027</span>
+                        <p>EELU- College of Computers and Information</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+            <p>&copy; 2025 ITI Bani-Suif. HTML And CSS Task</p>
+    </footer>
+</body>
+</html>
